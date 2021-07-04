@@ -3,10 +3,10 @@ body{
     margin: 0px;
 }
 h1{
-    font-size: 40px;
+    font-size: 45px;
 }
 h2{
-    font-size: 50px;
+    font-size: 35px;
 }
 .h1-color{
     color: rgb(226, 168, 59);
@@ -14,6 +14,7 @@ h2{
 .flexiable-container{
     display: flex;
     margin-bottom: 120px;
+    justify-content:space-around;
 }
 .half-width{
     width: 50%;
@@ -43,12 +44,11 @@ img{
     background-position: right;
 }
 .box-decoration{
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 35%;
+    background-image:  linear-gradient(155deg, rgba(104, 206, 218, 0.15), transparent);
+    box-shadow: 20px 40px 60px rgba(0, 0, 0, .1), inset 0 0 0 2px rgba(255, 255, 255, 0.1);
     padding: 30px;
-    box-shadow: 50px gray;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 #border1{
     border-left: 10px solid;
@@ -61,9 +61,12 @@ img{
     border-image-slice: 1;
 }
 .experience{
-    background-image: url(images/exp-bg.png);
+    background-image: url(images/undraw_Graduation_re_gthn.svg), url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: none, left;
+    background-size: cover, auto;
+    filter: blur(0.50px);
+    padding: 150px 0;
 }
 footer p{
     text-align: center;
