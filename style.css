@@ -3,12 +3,15 @@ body{
     margin: 0px;
 }
 h1{
+    font-size: 40px;
+}
+h2{
     font-size: 50px;
 }
 .h1-color{
     color: rgb(226, 168, 59);
 }
-section{
+.flexiable-container{
     display: flex;
     margin-bottom: 120px;
 }
@@ -38,4 +41,30 @@ img{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.box-decoration{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+}
+#border1{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(252, 173, 28), rgb(201, 91, 71));
+    border-image-slice: 1;
+}
+#border2{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(54, 54, 224), skyblue);
+    border-image-slice: 1;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+    text-align: center;
 }
